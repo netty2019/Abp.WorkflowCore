@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Abp.WorkflowCore.Test
+build_property.ProjectDir = D:\Repos\Abp.WorkflowCore\test\Abp.WorkflowCore.Test\

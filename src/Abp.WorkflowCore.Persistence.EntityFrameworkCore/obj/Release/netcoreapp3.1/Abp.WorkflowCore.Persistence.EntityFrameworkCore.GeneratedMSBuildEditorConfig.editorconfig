@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Abp.WorkflowCore.Persistence.EntityFrameworkCore
+build_property.ProjectDir = D:\Repos\Abp.WorkflowCore\src\Abp.WorkflowCore.Persistence.EntityFrameworkCore\

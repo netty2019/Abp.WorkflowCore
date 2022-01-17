@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.WorkflowCore.Persistence.EntityFrameworkCore\\Abp.WorkflowCore.Persistence.EntityFrameworkCore.csproj": {}
+    "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.WorkflowCore.Persistence.EntityFrameworkCore\\Abp.WorkflowCore.Persistence.EntityFrameworkCore.csproj": {}
   },
   "projects": {
-    "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.WorkflowCore.Persistence.EntityFrameworkCore\\Abp.WorkflowCore.Persistence.EntityFrameworkCore.csproj": {
+    "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.WorkflowCore.Persistence.EntityFrameworkCore\\Abp.WorkflowCore.Persistence.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.WorkflowCore.Persistence.EntityFrameworkCore\\Abp.WorkflowCore.Persistence.EntityFrameworkCore.csproj",
+        "projectUniqueName": "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.WorkflowCore.Persistence.EntityFrameworkCore\\Abp.WorkflowCore.Persistence.EntityFrameworkCore.csproj",
         "projectName": "Abp.WorkflowCore.Persistence.EntityFrameworkCore",
-        "projectPath": "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.WorkflowCore.Persistence.EntityFrameworkCore\\Abp.WorkflowCore.Persistence.EntityFrameworkCore.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.WorkflowCore.Persistence.EntityFrameworkCore\\obj\\",
+        "projectPath": "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.WorkflowCore.Persistence.EntityFrameworkCore\\Abp.WorkflowCore.Persistence.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\zhenhua.shen\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.WorkflowCore.Persistence.EntityFrameworkCore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zhenhua.shen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://211.149.234.57:8624/nuget/sdtz/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.WorkflowCore\\Abp.WorkflowCore.csproj": {
-                "projectPath": "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.WorkflowCore\\Abp.WorkflowCore.csproj"
+              "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.WorkflowCore\\Abp.WorkflowCore.csproj": {
+                "projectPath": "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.WorkflowCore\\Abp.WorkflowCore.csproj"
               }
             }
           }
@@ -42,6 +46,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
@@ -67,21 +72,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.WorkflowCore\\Abp.WorkflowCore.csproj": {
+    "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.WorkflowCore\\Abp.WorkflowCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.WorkflowCore\\Abp.WorkflowCore.csproj",
+        "projectUniqueName": "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.WorkflowCore\\Abp.WorkflowCore.csproj",
         "projectName": "Abp.WorkflowCore",
-        "projectPath": "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.WorkflowCore\\Abp.WorkflowCore.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.WorkflowCore\\obj\\",
+        "projectPath": "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.WorkflowCore\\Abp.WorkflowCore.csproj",
+        "packagesPath": "C:\\Users\\zhenhua.shen\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.WorkflowCore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zhenhua.shen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,14 +98,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://211.149.234.57:8624/nuget/sdtz/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.Workflow\\Abp.Workflow.csproj": {
-                "projectPath": "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.Workflow\\Abp.Workflow.csproj"
+              "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.Workflow\\Abp.Workflow.csproj": {
+                "projectPath": "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.Workflow\\Abp.Workflow.csproj"
               }
             }
           }
@@ -109,6 +118,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "WorkflowCore": {
               "target": "Package",
@@ -134,21 +144,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.Workflow\\Abp.Workflow.csproj": {
+    "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.Workflow\\Abp.Workflow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.Workflow\\Abp.Workflow.csproj",
+        "projectUniqueName": "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.Workflow\\Abp.Workflow.csproj",
         "projectName": "Abp.Workflow",
-        "projectPath": "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.Workflow\\Abp.Workflow.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\我的文件\\我的项目\\Abp.WorkflowCore\\src\\Abp.Workflow\\obj\\",
+        "projectPath": "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.Workflow\\Abp.Workflow.csproj",
+        "packagesPath": "C:\\Users\\zhenhua.shen\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Abp.WorkflowCore\\src\\Abp.Workflow\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zhenhua.shen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -156,11 +170,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://211.149.234.57:8624/nuget/sdtz/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -172,6 +186,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Abp": {
               "target": "Package",
@@ -193,7 +208,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

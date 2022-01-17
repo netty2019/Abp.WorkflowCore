@@ -10,3 +10,16 @@ D:\我的文件\我的项目\Abp.WorkflowCore\src\Abp.WorkflowCore\obj\Debug\net
 D:\我的文件\我的项目\Abp.WorkflowCore\src\Abp.WorkflowCore\obj\Debug\netcoreapp3.1\Abp.WorkflowCore.csproj.CopyComplete
 D:\我的文件\我的项目\Abp.WorkflowCore\src\Abp.WorkflowCore\obj\Debug\netcoreapp3.1\Abp.WorkflowCore.dll
 D:\我的文件\我的项目\Abp.WorkflowCore\src\Abp.WorkflowCore\obj\Debug\netcoreapp3.1\Abp.WorkflowCore.pdb
+D:\Repos\Abp.WorkflowCore\src\Abp.WorkflowCore\bin\Debug\netcoreapp3.1\Abp.WorkflowCore.deps.json
+D:\Repos\Abp.WorkflowCore\src\Abp.WorkflowCore\bin\Debug\netcoreapp3.1\Abp.WorkflowCore.dll
+D:\Repos\Abp.WorkflowCore\src\Abp.WorkflowCore\bin\Debug\netcoreapp3.1\Abp.WorkflowCore.pdb
+D:\Repos\Abp.WorkflowCore\src\Abp.WorkflowCore\bin\Debug\netcoreapp3.1\Abp.Workflow.dll
+D:\Repos\Abp.WorkflowCore\src\Abp.WorkflowCore\bin\Debug\netcoreapp3.1\Abp.Workflow.pdb
+D:\Repos\Abp.WorkflowCore\src\Abp.WorkflowCore\obj\Debug\netcoreapp3.1\Abp.WorkflowCore.csproj.AssemblyReference.cache
+D:\Repos\Abp.WorkflowCore\src\Abp.WorkflowCore\obj\Debug\netcoreapp3.1\Abp.WorkflowCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\Abp.WorkflowCore\src\Abp.WorkflowCore\obj\Debug\netcoreapp3.1\Abp.WorkflowCore.AssemblyInfoInputs.cache
+D:\Repos\Abp.WorkflowCore\src\Abp.WorkflowCore\obj\Debug\netcoreapp3.1\Abp.WorkflowCore.AssemblyInfo.cs
+D:\Repos\Abp.WorkflowCore\src\Abp.WorkflowCore\obj\Debug\netcoreapp3.1\Abp.WorkflowCore.csproj.CoreCompileInputs.cache
+D:\Repos\Abp.WorkflowCore\src\Abp.WorkflowCore\obj\Debug\netcoreapp3.1\Abp.WorkflowCore.csproj.CopyComplete
+D:\Repos\Abp.WorkflowCore\src\Abp.WorkflowCore\obj\Debug\netcoreapp3.1\Abp.WorkflowCore.dll
+D:\Repos\Abp.WorkflowCore\src\Abp.WorkflowCore\obj\Debug\netcoreapp3.1\Abp.WorkflowCore.pdb

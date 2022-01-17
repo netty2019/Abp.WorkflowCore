@@ -1376,7 +1376,7 @@ namespace WorkflowDemo.Migrations
                     b.ToTable("WorkflowDefinitions");
                 });
 
-            modelBuilder.Entity("Abp.WorkflowCore.Persistence.PersistedEvent", b =>
+            modelBuilder.Entity("Abp.Workflow.Persistence.PersistedEvent", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -1413,7 +1413,7 @@ namespace WorkflowDemo.Migrations
                     b.ToTable("WorkflowEvents");
                 });
 
-            modelBuilder.Entity("Abp.WorkflowCore.Persistence.PersistedExecutionError", b =>
+            modelBuilder.Entity("Abp.Workflow.Persistence.PersistedExecutionError", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -1438,7 +1438,7 @@ namespace WorkflowDemo.Migrations
                     b.ToTable("WorkflowExecutionErrors");
                 });
 
-            modelBuilder.Entity("Abp.WorkflowCore.Persistence.PersistedExecutionPointer", b =>
+            modelBuilder.Entity("Abp.Workflow.Persistence.PersistedExecutionPointer", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -1511,7 +1511,7 @@ namespace WorkflowDemo.Migrations
                     b.ToTable("WorkflowExecutionPointers");
                 });
 
-            modelBuilder.Entity("Abp.WorkflowCore.Persistence.PersistedExtensionAttribute", b =>
+            modelBuilder.Entity("Abp.Workflow.Persistence.PersistedExtensionAttribute", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -1535,7 +1535,7 @@ namespace WorkflowDemo.Migrations
                     b.ToTable("WorkflowExtensionAttributes");
                 });
 
-            modelBuilder.Entity("Abp.WorkflowCore.Persistence.PersistedSubscription", b =>
+            modelBuilder.Entity("Abp.Workflow.Persistence.PersistedSubscription", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -1582,7 +1582,7 @@ namespace WorkflowDemo.Migrations
                     b.ToTable("WorkflowSubscriptions");
                 });
 
-            modelBuilder.Entity("Abp.WorkflowCore.Persistence.PersistedWorkflow", b =>
+            modelBuilder.Entity("Abp.Workflow.Persistence.PersistedWorkflow", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -2130,23 +2130,23 @@ namespace WorkflowDemo.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Abp.WorkflowCore.Persistence.PersistedExecutionPointer", b =>
+            modelBuilder.Entity("Abp.Workflow.Persistence.PersistedExecutionPointer", b =>
                 {
-                    b.HasOne("Abp.WorkflowCore.Persistence.PersistedWorkflow", "Workflow")
+                    b.HasOne("Abp.Workflow.Persistence.PersistedWorkflow", "Workflow")
                         .WithMany("ExecutionPointers")
                         .HasForeignKey("WorkflowId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Abp.WorkflowCore.Persistence.PersistedExtensionAttribute", b =>
+            modelBuilder.Entity("Abp.Workflow.Persistence.PersistedExtensionAttribute", b =>
                 {
-                    b.HasOne("Abp.WorkflowCore.Persistence.PersistedExecutionPointer", "ExecutionPointer")
+                    b.HasOne("Abp.Workflow.Persistence.PersistedExecutionPointer", "ExecutionPointer")
                         .WithMany("ExtensionAttributes")
                         .HasForeignKey("ExecutionPointerId");
                 });
 
-            modelBuilder.Entity("Abp.WorkflowCore.Persistence.PersistedWorkflow", b =>
+            modelBuilder.Entity("Abp.Workflow.Persistence.PersistedWorkflow", b =>
                 {
                     b.HasOne("Abp.Workflow.PersistedWorkflowDefinition", "WorkflowDefinition")
                         .WithMany()
@@ -2185,11 +2185,11 @@ namespace WorkflowDemo.Migrations
 
             modelBuilder.Entity("WorkflowDemo.Core.Workflows.Entities.PersistedWorkflowAuditor", b =>
                 {
-                    b.HasOne("Abp.WorkflowCore.Persistence.PersistedExecutionPointer", "ExecutionPointer")
+                    b.HasOne("Abp.Workflow.Persistence.PersistedExecutionPointer", "ExecutionPointer")
                         .WithMany()
                         .HasForeignKey("ExecutionPointerId");
 
-                    b.HasOne("Abp.WorkflowCore.Persistence.PersistedWorkflow", "Workflow")
+                    b.HasOne("Abp.Workflow.Persistence.PersistedWorkflow", "Workflow")
                         .WithMany()
                         .HasForeignKey("WorkflowId")
                         .OnDelete(DeleteBehavior.Cascade)
